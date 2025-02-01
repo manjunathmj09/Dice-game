@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./RollDice.css";
 const RollDice = ({currentDice,rollDice,reset,setVisible}) => {
-  console.log(currentDice)
+  console.log(currentDice);
   return (
     <div className="roll">
       <div onClick={rollDice}>
