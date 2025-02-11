@@ -12,7 +12,7 @@ const Rules = () => {
         After clicking on the dice if selected number is equal to the dice number you will
         get same point as dice{" "}
       </p>
-      <p>if your guess is wrong then 2 point will be dedcuted</p>
+      <p>If your guess is wrong then 2 point will be dedcuted</p>
       </div>
     </div>
   );

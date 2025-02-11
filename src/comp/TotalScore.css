@@ -1,13 +1,33 @@
-.ScoreContainer{
+.ScoreContainer {
     max-width: 150px;
-    height: 135px;
+    width: 100%;
+    height: auto;
     text-align: center;
-}
-h1{
-    font-size: 100px;
-    line-height: 150px;
-}
-p{
-   font-size: 24px;
-   font-weight: 500px;
-}
+    margin: 20px 0;
+  }
+  
+  .ScoreContainer h1 {
+    font-size: 48px;
+    line-height: 72px;
+  }
+  
+  .ScoreContainer p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  @media (min-width: 768px) {
+    .ScoreContainer {
+      max-width: 150px;
+      height: 135px;
+    }
+  
+    .ScoreContainer h1 {
+      font-size: 100px;
+      line-height: 150px;
+    }
+  
+    .ScoreContainer p {
+      font-size: 24px;
+    }
+  }
