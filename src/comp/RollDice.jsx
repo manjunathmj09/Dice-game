@@ -5,7 +5,7 @@ const RollDice = ({currentDice,rollDice,reset,setVisible}) => {
   return (
     <div className="roll">
       <div onClick={rollDice}>
-        <img src={`/images/dice_${currentDice}.png`} alt="dice" />
+        <img src={`/dice-game//images/dice_${currentDice}.png`} alt="dice" />
       </div>
       <p>Click on the Dice to Roll</p>
       <button className="btn1" onClick={reset}>Reset Score</button>
